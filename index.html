@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="" alt="logo" />
+      </div>
+      <nav>
+          <a href="#X" target="_blank">home</a>
+          <a href="">service</a>
+          <a href="">product</a>
+          <a href="">contact</a>
+        </nav>
+        <div class="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="close">X</div>
+
+    </header>
+    <main>
+<div id="x">LLLL</div>
+<div class="number"></div>
+    </main>
+ <script>
+  let number=document.querySelector('.number');
+  let id=document.querySelector('#x');
+  function count(){
+    number.innerHTML++;
+    if(number.innerHTML == 30){
+      clearInterval(counter);
+    }
+
+
+  }
+ 
+
+  let counter= setInterval(count,100);
+
+  
+ 
+ </script>
+  </body>
+</html>
